@@ -80,8 +80,8 @@
     filter: blur(250px) !important;
     width: 331px !important;
     height: 331px !important;
-    left: -11%;
-    bottom: -2%;
+    left: -30%;
+    bottom: 0%;
     z-index: 1;
 }
 
@@ -89,8 +89,8 @@
     position: absolute;
     width: 331px;
     height: 331px;
-    top: 0px;
-    right: 8%;
+   top: 0%;
+    right:0%;
     filter: blur(250px);
     background: rgba(27, 50, 165, 1);
     z-index: 1;
