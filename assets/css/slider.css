@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /**{
     outline: 2px solid red;
 }*/
@@ -11,14 +13,6 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 50px;
-}
-
-.position-relative {
-    position: relative;
-}
-
-.w-100 {
-    width: 100%;
 }
 
 .gap-30 {
@@ -33,6 +27,7 @@
     background: rgba(20, 13, 27, 1);
 
 }
+
 
 .head {
     font-family: "Poppins", sans-serif;
@@ -58,13 +53,12 @@
 
 .card-slider {
     box-shadow: 0px 4px 26px 0px rgba(18, 25, 210, 0.15);
-    margin-right: 20px;
-    margin-left: 20px;
     background: rgba(18, 25, 210, 0.2);
-    /*border: 1px solid rgba(18, 25, 210, 1);*/
-    margin-bottom: 95px;
     border-radius: 13px;
     overflow: hidden;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 95px;
 }
 
 .group-star {
@@ -89,34 +83,333 @@
     position: absolute;
     width: 331px;
     height: 331px;
-   top: 0%;
-    right:0%;
+    top: 0%;
+    right: 0%;
     filter: blur(250px);
     background: rgba(27, 50, 165, 1);
     z-index: 1;
 
 }
 
-.slick-dots li button:before {
+.meet-team .slick-dots li button:before {
     content: unset !important;
 }
 
-.slick-dots li {
-    background: rgba(250, 250, 250, 1) !important;
-    transition: all 200ms linear;
-    height: 12px !important;
-    border-radius: 21px !important;
+.meet-team .slick-dots li {
+    background-color: rgba(227, 228, 229, 1);
+    height: 12px;
+    width: 28px;
+    border-radius: 21px;
+    transition: width 200ms linear;
 }
 
-.slick-dots li button {
-    width: 59px !important;
-    height: 12px !important;
-    border-radius: 21px !important;
+.meet-team .slick-dots li.slick-active {
+    background-color: rgba(3, 137, 255, 1);
+    width: 59px;
 }
 
-.slick-dots li.slick-active {
-    background: rgba(18, 25, 210, 1) !important;
-    width: 59px !important;
-    height: 12px !important;
-    border-radius: 21px !important;
+/*Testimonials*/
+
+.body-color {
+    background: rgba(2, 13, 21, 1);
+
 }
+
+.card-home {
+    background: rgba(3, 137, 255, 0.12);
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: radial-gradient(rgb(0, 107, 139), rgba(3, 137, 255, 0.10));
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image-center {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 13.71px;
+    padding-top: 27.71px;
+}
+
+.heading-slide {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 55.44px;
+    text-align: center;
+    color: rgba(251, 253, 255, 1);
+    margin-bottom: 45px;
+}
+
+.text-1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(251, 253, 255, 1);
+
+}
+
+.text-2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: rgba(251, 253, 255, 1);
+    padding-top: 46px;
+    padding-bottom: 42px;
+}
+
+.testimonials .slick-dots li button::before {
+    content: unset;
+}
+
+.testimonials .slick-dots li {
+    background-color: rgba(227, 228, 229, 1);
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    transition: width 200ms linear;
+}
+
+.testimonials .slick-dots li.slick-active {
+    background-color: rgba(3, 137, 255, 1);
+    width: 53px !important;
+}
+
+/*Trusted by Thousands of Happy Customer*/
+.heading-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(11, 19, 42, 1);
+
+}
+
+.para-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(79, 86, 101, 1);
+    padding-bottom: 30px;
+}
+
+
+.card-customer {
+    border: 2px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.name {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(11, 19, 42, 1);
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.country {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(79, 86, 101, 1);
+    padding-right: 107px;
+}
+
+.star-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(11, 19, 42, 1);
+}
+
+.para-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(11, 19, 42, 1);
+    padding-top: 20px;
+}
+
+.happy-customer .slick-track {
+    display: flex !important;
+}
+
+
+.happy-customer .slick-slider {
+    height: inherit !important;
+}
+
+.happy-customer .slick-dots {
+    bottom: -40% !important;
+    padding: 19px !important;
+}
+
+.happy-customer .slick-slider>div {
+    display: flex;
+}
+
+.happy-customer .slick-dots li button::before {
+    content: unset;
+}
+
+.happy-customer .slick-dots li {
+    background: rgba(221, 224, 228, 1);
+    height: 15px;
+    width: 15px;
+    float: left;
+    border-radius: 21px;
+    transition: width 200ms linear;
+    /* margin-top: 60px; */
+}
+
+
+.happy-customer .slick-dots li.slick-active {
+    background: rgba(245, 56, 56, 1);
+    width: 45px !important;
+    height: 15px !important;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    border: none;
+    background-color: transparent;
+
+}
+
+.slick-prev-arrow {
+    position: absolute;
+    right: 10%;
+    transform: translateY(-50%);
+    bottom: -25%;
+}
+
+.slick-next-arrow {
+    position: absolute;
+    right: 0%;
+    transform: translateY(-50%);
+    bottom: -44.5%;
+}
+
+.happy {
+    .over-slider {
+        z-index: 2;
+    }
+
+    .slick-list {
+        overflow: visible;
+        padding: 0 20% 0 0;
+        position: relative;
+        z-index: -1;
+    }
+
+    .slick-list::after {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 4000px;
+        right: 100%;
+        background-color: white;
+    }
+}
+
+/*gilded world*/
+.max-width {
+    max-width: 1038px !important;
+}
+
+.Frequently {
+    background-image: url(../image/png/15965\ 1.png);
+}
+
+.heading-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 70px;
+}
+
+.text-blue {
+    color: rgba(79, 131, 227);
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.accordion-body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    opacity: 70%;
+}
+
+.accordion-item {
+    background-color: black !important;
+    color: #fff !important;
+    border: 3px solid rgba(255, 255, 255, 0.1) !important;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(40px) !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    margin-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    color: #fff !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e") !important;
+}
+
+/*@media (min-width:992px) {
+    .card-slider.slick-slide.slick-current.slick-active+div{
+        border: 1px solid rgba(18, 25, 210, 1);
+    }
+}*/
